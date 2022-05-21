@@ -3,8 +3,7 @@
     <header>
       <nav>
         <ul class="fixed">
-          <li><a href="#">YouDev</a></li>
-          <router-link class="none link" to="/"><li><a  class="link"><strong>Home</strong></a></li></router-link>
+          <router-link class="none link" to="/"><img class="logo" src="/img/logo1.png" alt=""></router-link>
           <router-link class="none" to="/about"><li><a  class="link"><strong>Acerca de</strong></a></li></router-link>
           <router-link class="none link" to="/contact"><li><a  class="link"><strong>Contact</strong></a></li></router-link>
         </ul>
@@ -32,5 +31,9 @@
 </template>
 
 <style>
-
+.logo {
+  margin-left: 4px;
+  width: 80px;
+  height: 60px;
+}
 </style>
